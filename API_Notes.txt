@@ -1,10 +1,6 @@
 BALLDONTLIE API 
 (Free Tier: only has access to 3 endpoints: Players, Teams, and Games)
 
-[API KEY]
-f8a95de3-8bff-4bf1-9903-57d8777660b5
-Authorization: f8a95de3-8bff-4bf1-9903-57d8777660b5
-
 [Usage, Python]
 from balldontlie import BalldontlieAPI
 
