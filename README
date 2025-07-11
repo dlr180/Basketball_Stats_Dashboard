@@ -61,10 +61,9 @@ GET http://localhost:5000/
 
 ---
 
-📦 Planned Features
-✅ Initial Flask + Next.js setup
-
-🔄 Concurrent server running
+📦 Features
+✅ Initial Flask + Next.js setup (completed 7/11/2025)
+🔄 Concurrent server running (completed 7/11/2025)
 
 🔐 OAuth2 Authentication
 
