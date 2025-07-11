@@ -1,0 +1,75 @@
+🏀 Basketball Stats Dashboard
+
+A full-stack application that visualizes basketball stats using a Flask backend and a Next.js frontend. Built to support secure API integration and future OAuth2 authentication.
+
+---
+
+🚀 Project Structure
+
+basketball_stats_dashboard/
+├── backend/ # Flask API server
+├── frontend/ # Next.js frontend
+
+---
+
+🧰 Tech Stack
+
+- **Backend:** Python, Flask, Flask-CORS
+- **Frontend:** Next.js (React), Axios
+- **Dev Tools:** Node.js, Git, concurrently, PowerShell
+- **Future Features:** OAuth2, API data integration, mobile app via Expo
+
+---
+
+⚙️ Setup Instructions
+
+# Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/basketball_stats_dashboard.git
+cd basketball_stats_dashboard
+
+# Backend (Flask)
+powershell
+Copy code
+cd backend
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python run.py
+
+# Frontend (Next.js)
+powershell
+cd ../frontend
+npm install
+npm run dev
+
+Or run both together:
+
+powershell
+npm run dev
+
+
+🧪 Example API Response
+json
+
+GET http://localhost:5000/
+
+{
+  "message": "Backend API working!"
+}
+
+---
+
+📦 Planned Features
+✅ Initial Flask + Next.js setup
+
+🔄 Concurrent server running
+
+🔐 OAuth2 Authentication
+
+📊 Dashboard UI with charts
+
+📱 Mobile app with Expo (React Native)
+
+```
