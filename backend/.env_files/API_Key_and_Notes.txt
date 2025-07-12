@@ -1,0 +1,41 @@
+BALLDONTLIE API 
+(Free Tier: only has access to 3 endpoints: Players, Teams, and Games)
+
+[API KEY]
+f8a95de3-8bff-4bf1-9903-57d8777660b5
+Authorization: f8a95de3-8bff-4bf1-9903-57d8777660b5
+
+[Usage, Python]
+from balldontlie import BalldontlieAPI
+
+api = BalldontlieAPI(api_key="your-api-key")
+
+# NBA (see documentation for full list of methods)
+api.nba.teams.list()
+
+# MLB
+api.mlb.teams.list()
+
+# NFL
+api.nfl.teams.list()
+
+
+[Getting Started Interacting with API using JavaScript]
+
+import { BalldontlieAPI } from "@balldontlie/sdk";
+
+const api = new BalldontlieAPI({ apiKey: "your-api-key" });
+
+// Get NBA stats
+await api.nba.getStats({ dates: ["2024-11-13", "2024-11-14"] });
+
+
+[Getting Started Interacting with API using Python]
+
+from balldontlie import BalldontlieAPI
+
+api = BalldontlieAPI(api_key="your-api-key")
+
+# Get NBA stats
+api.nba.stats.list(dates=["2024-11-13", "2024-11-14"])
+
